@@ -1,0 +1,10 @@
+# Dependencies & Builds
+node_modules/
+dist/
+target/
+*.jar
+
+# Environment & IDE
+.env
+.idea/
+.vscode/

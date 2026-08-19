@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/v1/telemetry")
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"})
+@CrossOrigin(origins = "*") // Updated to allow Vercel or any deployed domain
 public class TelemetryController {
 
     private final IncidentRepository incidentRepository;

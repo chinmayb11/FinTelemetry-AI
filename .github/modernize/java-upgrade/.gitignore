@@ -1,10 +1,9 @@
-# Dependencies & Builds
-node_modules/
-dist/
-target/
-*.jar
+# Build outputs
+**/target/
+**/dist/
+**/node_modules/
 
-# Environment & IDE
-.env
+# IDE and OS
 .idea/
 .vscode/
+*.log
